@@ -1,12 +1,7 @@
 ---
-tags:
-  - privesc
-cssclasses:
-  - kekeo
-  - s4u
-  - MimiKatz
-  - Rubeus
+{"publish":true,"created":"2025-02-23T23:53:09.696+05:30","modified":"2025-08-15T16:41:48.536+05:30","published":"2025-08-15T16:41:48.536+05:30","tags":["privesc"],"cssclasses":[]}
 ---
+
 - When enabled on a service account, it allows access to only specific services on specified computers as a user.
 - A typical scenario where constrained delegation is used - A user authenticates to a web service without using Kerberos and the web service makes requests to a database server to fetch results based on the user's authorization.
 - To impersonate a user, **Service for User (S4U)** extension is used which provides two extensions:

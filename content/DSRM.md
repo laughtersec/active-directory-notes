@@ -1,10 +1,7 @@
 ---
-tags:
-  - persistence
-cssclasses:
-  - MimiKatz
-  - Registry
+{"publish":true,"created":"2025-02-23T23:53:09.697+05:30","modified":"2025-08-15T16:42:05.853+05:30","published":"2025-08-15T16:42:05.853+05:30","tags":["persistence"],"cssclasses":[]}
 ---
+
 - Directory Services Restore Mode
 - There is a local administrator on every DC called "Administrator" whose password is the DSRM password.
 - DSRM password (SafeModePassword) is required when a server is promoted to Domain Controller and it is rarely changed.

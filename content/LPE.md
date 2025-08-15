@@ -1,7 +1,7 @@
 ---
-tags:
-  - local-privesc
+{"publish":true,"created":"2025-02-23T23:53:09.699+05:30","modified":"2025-08-15T16:42:20.764+05:30","published":"2025-08-15T16:42:20.764+05:30","tags":["local-privesc"],"cssclasses":""}
 ---
+
 There are various ways of locally escalating privileges on Windows
 
 - Missing patches

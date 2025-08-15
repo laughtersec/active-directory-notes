@@ -1,11 +1,7 @@
 ---
-tags:
-  - privesc
-cssclasses:
-  - MimiKatz
-  - LSASS
-  - Rubeus
+{"publish":true,"created":"2025-02-23T23:53:09.704+05:30","modified":"2025-08-15T16:43:43.310+05:30","published":"2025-08-15T16:43:43.310+05:30","tags":["privesc"],"cssclasses":[]}
 ---
+
 #### Introduction
 
 - When set for a particular service account, unconstrained delegation allows delegation to any service to any resource on the domain as a user.

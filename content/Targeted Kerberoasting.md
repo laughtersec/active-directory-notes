@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-04-02T20:40:37.188+05:30","modified":"2025-04-15T12:18:40.651+05:30","tags":["privesc"],"cssclasses":"AS-REP UAC kerberos-preauth"}
+{"publish":true,"created":"2025-04-02T20:40:37.188+05:30","modified":"2025-08-15T16:43:26.320+05:30","published":"2025-08-15T16:43:26.320+05:30","tags":["privesc"],"cssclasses":[]}
 ---
 
 If a user's UAC setting has "Do not require Kerberos preauthentication" enabled i.e. Kerberos preauth is disabled, it is possible to grab user's crackable AS-REP and brute force it offline. With sufficient rights (`GenericWrite` or `GenericAll`), Kerberos preauth can be forced disabled as well.

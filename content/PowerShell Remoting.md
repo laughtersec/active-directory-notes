@@ -1,8 +1,7 @@
 ---
-tags:
-  - lateral-movement
-cssclasses:
+{"publish":true,"created":"2025-02-23T23:53:09.700+05:30","modified":"2025-08-15T16:42:41.683+05:30","published":"2025-08-15T16:42:41.683+05:30","tags":["lateral-movement"],"cssclasses":null}
 ---
+
 #### Connect to remote hosts using [[PowerShell]]
 
 - More silent and faster than psexec

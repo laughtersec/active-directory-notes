@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.699+05:30","modified":"2025-03-17T18:49:48.533+05:30","tags":["lateral-movement"],"cssclasses":"LSASS MimiKatz OPTH DCSync"}
+{"publish":true,"created":"2025-02-23T23:53:09.699+05:30","modified":"2025-08-15T16:42:18.089+05:30","published":"2025-08-15T16:42:18.089+05:30","tags":["lateral-movement"],"cssclasses":[]}
 ---
 
 #### [Extracting Credentials](https://www.alteredsecurity.com/post/fantastic-windows-logon-types-and-where-to-find-credentials-in-them) from LSASS

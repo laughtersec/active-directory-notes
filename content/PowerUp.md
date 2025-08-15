@@ -1,8 +1,7 @@
 ---
-tags:
-  - local-privesc
-cssclasses:
+{"publish":true,"created":"2025-02-23T23:53:09.700+05:30","modified":"2025-08-15T16:42:42.421+05:30","published":"2025-08-15T16:42:42.421+05:30","tags":["local-privesc"],"cssclasses":null}
 ---
+
  [[PowerShell]] LPE Module
 #### Services issues using PowerUp
 

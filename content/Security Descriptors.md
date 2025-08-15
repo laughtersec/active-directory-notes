@@ -1,12 +1,7 @@
 ---
-tags:
-  - persistence
-cssclasses:
-  - persistence-using-ACLs
-  - RACE-toolkit
-  - WMI
-  - Registry
+{"publish":true,"created":"2025-02-23T23:53:09.702+05:30","modified":"2025-08-15T16:43:09.240+05:30","published":"2025-08-15T16:43:09.240+05:30","tags":["persistence"],"cssclasses":[]}
 ---
+
 - It is possible to modify Security Descriptors (security information like Owner, primary group, D[[Access Control Model]], SACL) of multiple remote access methods (securable objects) to allow access to non-admin users
 - A very effective backdoor mechanism
 - Security Descriptor Definition Language (SDDL) defines the format which is used to describe a security descriptor. SDDL uses ACE strings for DACL and SACL:

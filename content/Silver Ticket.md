@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"AP-REQ Kerberos","created":"2025-02-23T23:53:09.702+05:30","modified":"2025-03-17T18:48:19.337+05:30","tags":["persistence"],"cssclasses":"MimiKatz Rubeus LDAP"}
+{"publish":true,"aliases":[],"created":"2025-02-23T23:53:09.702+05:30","modified":"2025-08-15T16:43:16.772+05:30","published":"2025-08-15T16:43:16.772+05:30","tags":["persistence"],"cssclasses":null}
 ---
 
 - A valid TGS

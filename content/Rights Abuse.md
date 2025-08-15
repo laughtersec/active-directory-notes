@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-04-02T20:40:37.186+05:30","modified":"2025-04-04T22:10:34.244+05:30","tags":["persistence"],"cssclasses":"persistence-using-ACLs RACE-toolkit PowerView MimiKatz"}
+{"publish":true,"created":"2025-04-02T20:40:37.186+05:30","modified":"2025-08-15T16:43:01.482+05:30","published":"2025-08-15T16:43:01.482+05:30","tags":["persistence"],"cssclasses":[],"aliases":null}
 ---
 
 This is a persistence mechanism, so it is assumed you have gained high privileges such as Domain Admin.

@@ -1,9 +1,7 @@
 ---
-tags:
-  - persistence
-cssclasses:
-  - Rubeus
+{"publish":true,"created":"2025-02-23T23:53:09.697+05:30","modified":"2025-08-15T16:42:03.039+05:30","published":"2025-08-15T16:42:03.039+05:30","tags":["persistence"],"cssclasses":[]}
 ---
+
 - A diamond ticket is created by decrypting a valid TGT, making changes to it and re-encrypt it using the AES keys of the krbtgt account
 - This, like Golden Ticket, deals with abusing TGS-REQ
 - Golden ticket was a TGT forging attack whereas diamond ticket is a TGT modification attack.

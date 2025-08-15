@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.698+05:30","modified":"2025-04-15T13:07:52.058+05:30","tags":["privesc"],"cssclasses":"Rubeus MimiKatz john TGS-REP"}
+{"publish":true,"created":"2025-02-23T23:53:09.698+05:30","modified":"2025-08-15T16:40:50.896+05:30","published":"2025-08-15T16:40:50.896+05:30","tags":["privesc"],"cssclasses":[]}
 ---
 
 - [Offline cracking of service account passwords.](https://www.redsiege.com/wp-content/uploads/2020/08/Kerberoastv4.pdf)

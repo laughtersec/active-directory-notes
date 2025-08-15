@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.695+05:30","modified":"2025-04-04T21:58:36.584+05:30","tags":["persistence"],"cssclasses":"MimiKatz persistence-using-ACLs SDPROP PowerView RACE-toolkit"}
+{"publish":true,"created":"2025-02-23T23:53:09.695+05:30","modified":"2025-08-15T16:41:28.632+05:30","published":"2025-08-15T16:41:28.632+05:30","tags":["persistence"],"cssclasses":[],"aliases":null}
 ---
 
 - Resides in the System container of a domain and used to control permissions - using an [[Access Control Model]] - for certain built-in privileged groups (called Protected Groups). 

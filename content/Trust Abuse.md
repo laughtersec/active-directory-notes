@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.703+05:30","modified":"2025-03-17T18:49:32.978+05:30","tags":["privesc"],"cssclasses":"PowerUpSQL MimiKatz"}
+{"publish":true,"created":"2025-02-23T23:53:09.703+05:30","modified":"2025-08-15T16:43:40.109+05:30","published":"2025-08-15T16:43:40.109+05:30","tags":["privesc"],"cssclasses":[]}
 ---
 
 SQL Servers

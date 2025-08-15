@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-04-02T20:40:37.185+05:30","modified":"2025-04-11T18:22:42.016+05:30","tags":["detection-and-defense"],"cssclasses":"DCSync OPTH PTH Kerberoasting MimiKatz"}
+{"publish":true,"created":"2025-04-02T20:40:37.185+05:30","modified":"2025-08-15T16:41:01.038+05:30","published":"2025-08-15T16:41:01.038+05:30","tags":["detection-and-defense"],"cssclasses":[]}
 ---
 
 - It identifies, detects and investigates advanced threats, compromised identities, and malicious insider actions directed at your organization

@@ -1,8 +1,7 @@
 ---
-tags:
-  - privesc
-cssclasses:
+{"publish":true,"created":"2025-02-23T23:53:09.699+05:30","modified":"2025-08-15T16:42:14.093+05:30","published":"2025-08-15T16:42:14.093+05:30","tags":["privesc"],"cssclasses":null}
 ---
+
 - Kerberos Delegation allows to "reuse the end-user credentials to access resources hosted on a different server".
 - This is typically useful in multi-tier service or applications where Kerberos Double Hop is required.
 - For example, users authenticates to a web server and a web server makes requests to a database server. The web server can request access to resources (all or some resources depending on the type of delegation) on the database server as the user and not as the web server's service account.

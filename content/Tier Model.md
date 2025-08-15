@@ -1,7 +1,7 @@
 ---
-tags:
-  - detection-and-defense
+{"publish":true,"created":"2025-02-23T23:53:09.703+05:30","modified":"2025-08-15T16:43:37.014+05:30","published":"2025-08-15T16:43:37.014+05:30","tags":["detection-and-defense"],"cssclasses":""}
 ---
+
 #### Active Directory Administrative Tier Model
 - Composed of three levels only for administrative accounts:
 	- Tier 0 - Accounts, Groups and Computers which have privileges across the enterprise like Domain Controllers, Domain Admins, Enterprise Admins.

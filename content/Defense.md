@@ -1,8 +1,7 @@
 ---
-tags:
-  - defense
-cssclasses:
+{"publish":true,"created":"2025-02-23T23:53:09.697+05:30","modified":"2025-08-15T16:41:56.238+05:30","published":"2025-08-15T16:41:56.238+05:30","tags":["defense"],"cssclasses":null}
 ---
+
 - System-wide transcription
 - Script-Block logging
 - AntiMalware Scan Interface (AMSI)

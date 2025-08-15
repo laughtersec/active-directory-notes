@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.695+05:30","modified":"2025-03-17T18:45:30.911+05:30","tags":["privesc"],"cssclasses":"Certify Rubeus Across-Trust"}
+{"publish":true,"created":"2025-02-23T23:53:09.695+05:30","modified":"2025-08-15T16:41:23.273+05:30","published":"2025-08-15T16:41:23.273+05:30","tags":["privesc"],"cssclasses":[]}
 ---
 
 #### Introduction

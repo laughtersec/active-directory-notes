@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"TGS-REQ Kerberos","created":"2025-02-23T23:53:09.698+05:30","modified":"2025-04-11T18:17:33.979+05:30","tags":["persistence"],"cssclasses":"MimiKatz Rubeus DCSync LDAP"}
+{"publish":true,"aliases":[],"created":"2025-02-23T23:53:09.698+05:30","modified":"2025-08-15T16:40:32.991+05:30","published":"2025-08-15T16:40:32.991+05:30","tags":["persistence"],"cssclasses":null}
 ---
 
 - A golden ticket is signed and encrypted by the hash of the krbtgt account which makes it a valid TGT ticket.
