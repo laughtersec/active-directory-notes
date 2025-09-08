@@ -12,8 +12,9 @@ const config: QuartzConfig = {
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
+    analytics: { 
+      provider: 'google', 
+      tagId: 'G-QFTQR7JEWN' 
     },
     locale: "en-US",
     baseUrl: "laughtersec.github.io/active-directory-notes",
