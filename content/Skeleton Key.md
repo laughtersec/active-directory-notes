@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.702+05:30","modified":"2025-08-15T16:43:19.934+05:30","published":"2025-08-15T16:43:19.934+05:30","tags":["persistence"],"cssclasses":[]}
+{"publish":true,"created":"2025-02-23T23:53:09.702+05:30","modified":"2025-12-06T16:09:50.530+05:30","published":"2025-12-06T16:09:50.530+05:30","tags":["persistence"],"cssclasses":[]}
 ---
 
 - Patches the DC's LSASS process so that it allows access as any user with a single password.
