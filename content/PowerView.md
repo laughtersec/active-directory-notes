@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-04-02T20:40:37.186+05:30","modified":"2025-05-04T12:32:30.968+05:30","tags":["domain-enumeration"],"cssclasses":""}
+{"publish":true,"created":"2025-04-02T20:40:37.186+05:30","modified":"2025-05-04T12:32:30.968+05:30","published":"2025-05-04T12:32:30.968+05:30","tags":["domain-enumeration"],"cssclasses":""}
 ---
 
 [[PowerShell]] on steroids: 

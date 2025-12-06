@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.701+05:30","modified":"2025-03-17T18:48:05.986+05:30","tags":["defense"],"cssclasses":""}
+{"publish":true,"created":"2025-02-23T23:53:09.701+05:30","modified":"2025-03-17T18:48:05.986+05:30","published":"2025-03-17T18:48:05.986+05:30","tags":["defense"],"cssclasses":""}
 ---
 
 - Reduce the number of Domain Admins in your environment

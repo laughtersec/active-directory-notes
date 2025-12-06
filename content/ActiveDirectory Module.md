@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-04-02T20:40:37.185+05:30","modified":"2025-04-04T21:51:21.844+05:30","tags":["domain-enumeration"],"cssclasses":""}
+{"publish":true,"created":"2025-04-02T20:40:37.185+05:30","modified":"2025-04-04T21:51:21.844+05:30","published":"2025-04-04T21:51:21.844+05:30","tags":["domain-enumeration"],"cssclasses":""}
 ---
 
 The default [[PowerShell]] module for enumerating objects in [[Active Directory]]

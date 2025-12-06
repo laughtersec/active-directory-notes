@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.700+05:30","modified":"2025-04-04T22:09:53.807+05:30","tags":["general","domain-enumeration","lateral-movement"],"cssclasses":""}
+{"publish":true,"created":"2025-02-23T23:53:09.700+05:30","modified":"2025-04-04T22:09:53.807+05:30","published":"2025-04-04T22:09:53.807+05:30","tags":["general","domain-enumeration","lateral-movement"],"cssclasses":""}
 ---
 
 ##### Introduction

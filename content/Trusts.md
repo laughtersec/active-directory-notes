@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.703+05:30","modified":"2025-03-17T18:49:35.627+05:30","tags":["domain-enumeration","general"],"cssclasses":""}
+{"publish":true,"created":"2025-02-23T23:53:09.703+05:30","modified":"2025-03-17T18:49:35.627+05:30","published":"2025-03-17T18:49:35.627+05:30","tags":["domain-enumeration","general"],"cssclasses":""}
 ---
 
 - A relationship between two domains or forests which allows users of one domain or forest to access resources in the other domain or forest.
