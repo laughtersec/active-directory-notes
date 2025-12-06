@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.704+05:30","modified":"2025-08-15T16:43:46.790+05:30","published":"2025-08-15T16:43:46.790+05:30","tags":["domain-enumeration"],"cssclasses":[]}
+{"publish":true,"created":"2025-02-23T23:53:09.704+05:30","modified":"2025-12-06T16:15:14.952+05:30","published":"2025-12-06T16:15:14.952+05:30","tags":["domain-enumeration"],"cssclasses":[]}
 ---
 
 ```powershell title:"Find all machines on the current domain where the current user has local admin access"
@@ -37,3 +37,16 @@ Invoke-SessionHunter -FailSafe
 Invoke-SessionHunter -NoPortScan -Targets C:\Path\To\servers.txt
 ```
 
+An over-reliance on automated tools is not the wisest choice.
+
+We can find domain users from our current foothold too.
+
+```shell title:"Find domain users"
+net user /domain
+```
+
+We can fetch its details too
+
+```shell title:"List details of a domain user"
+net user "domain.user" /domain
+```
