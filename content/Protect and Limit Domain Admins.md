@@ -1,5 +1,10 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.701+05:30","modified":"2025-03-17T18:48:05.986+05:30","published":"2025-03-17T18:48:05.986+05:30","tags":["defense"],"cssclasses":""}
+publish: true
+created: 2025-02-23T23:53:09.701+05:30
+modified: 2025-03-17T18:48:05.986+05:30
+published: 2025-03-17T18:48:05.986+05:30
+tags:
+  - defense
 ---
 
 - Reduce the number of Domain Admins in your environment
@@ -8,15 +13,16 @@
 - Set "Account is sensitive and cannot be delegated" for Domain Admins.
 
 #### Protected Users Group
+
 - Protected Users is a group introduced in Server 2012 R2 for "better protection against credential theft" by not caching credentials in insecure ways. A user added to this group has the following major device protections:
-	- Cannot use CredSSP and WDigest - No more cleartext credentials caching.
-	- NTLM hash is not cached.
-	- Kerberos does not use DES or RC4 keys. No caching of clear text credentials or long term keys.
+  - Cannot use CredSSP and WDigest - No more cleartext credentials caching.
+  - NTLM hash is not cached.
+  - Kerberos does not use DES or RC4 keys. No caching of clear text credentials or long term keys.
 - If the domain functional level is Server 2012 R2, following DC protections are available:
-	- No NTLM authentication
-	- No DES or RC4 keys in Kerberos pre-auth
-	- No delegation (constrained or unconstrained)
-	- No renewal of TGT beyond initial four hour lifetime - Hardcoded, unconfigurable "Maximum lifetime for user ticket" and "Maximum lifetime for user ticket renewal"
+  - No NTLM authentication
+  - No DES or RC4 keys in Kerberos pre-auth
+  - No delegation (constrained or unconstrained)
+  - No renewal of TGT beyond initial four hour lifetime - Hardcoded, unconfigurable "Maximum lifetime for user ticket" and "Maximum lifetime for user ticket renewal"
 - Needs all domain control to be at least Server 2008 or later (because AES keys)
 - Not recommended by MS to add Domain Admins and Enterprise Admins to this group without testing "the potential impact" of lock out.
 - No cached logon i.e. no offline sign-on.

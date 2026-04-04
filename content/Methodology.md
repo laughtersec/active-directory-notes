@@ -1,9 +1,13 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.700+05:30","modified":"2025-08-15T16:42:23.551+05:30","published":"2025-08-15T16:42:23.551+05:30","tags":["general"],"cssclasses":""}
+publish: true
+created: 2025-02-23T23:53:09.700+05:30
+modified: 2025-08-15T16:42:23.551+05:30
+published: 2025-08-15T16:42:23.551+05:30
+tags:
+  - general
 ---
 
 ![[methodology.svg ]]
-
 
 - It is supposed to start off with reconnaissance, but we are assuming a position where we already have a foothold.
 - Not much can be done without enumeration, which will mostly rely on the usage of BloodHound

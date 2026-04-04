@@ -1,5 +1,10 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.696+05:30","modified":"2025-12-06T16:08:32.177+05:30","published":"2025-12-06T16:08:32.177+05:30","tags":["domain-enumeration"],"cssclasses":""}
+publish: true
+created: 2025-02-23T23:53:09.696+05:30
+modified: 2025-12-06T16:08:32.177+05:30
+published: 2025-12-06T16:08:32.177+05:30
+tags:
+  - domain-enumeration
 ---
 
 BloodHound Legacy: https://github.com/BloodHoundAD/BloodHound

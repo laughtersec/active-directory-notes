@@ -1,5 +1,11 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.704+05:30","modified":"2025-12-06T16:15:14.952+05:30","published":"2025-12-06T16:15:14.952+05:30","tags":["domain-enumeration"],"cssclasses":[]}
+publish: true
+created: 2025-02-23T23:53:09.704+05:30
+modified: 2025-12-06T16:15:14.952+05:30
+published: 2025-12-06T16:15:14.952+05:30
+tags:
+  - domain-enumeration
+cssclasses: []
 ---
 
 ```powershell title:"Find all machines on the current domain where the current user has local admin access"
@@ -17,7 +23,7 @@ This can also be done with the help of remote administration tools like WMI and 
 
 This function queries the DC of the current or provided domain for members of the given group (Domain Admins by default) using `Get-DomainGroupMember`, gets a list of computers (`Get-DomainComputer`) and list sessions and logged on users (`Get-NetSession/Get-NetLoggedon`) from each machine.
 
-*Note that Server 2019 onwards, local administrator privileges are required to list sessions.*
+_Note that Server 2019 onwards, local administrator privileges are required to list sessions._
 
 ```powershell title:"Find computers where a domain admin session is available and current user has admin access (uses Test-AdminAccess)"
 Find-DomainUserLocation -CheckAccess
@@ -31,7 +37,7 @@ Find-DomainUserLocation -Stealth
 Invoke-SessionHunter -FailSafe
 ```
 
-*Above command doesn't need admin access on remote machines. Uses Remote Registry and queries HKEY_USERS hive.*
+_Above command doesn't need admin access on remote machines. Uses Remote Registry and queries HKEY\_USERS hive._
 
 ```powershell title:"Opsec friendly command (Not PowerView)"
 Invoke-SessionHunter -NoPortScan -Targets C:\Path\To\servers.txt

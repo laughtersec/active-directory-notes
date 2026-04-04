@@ -1,8 +1,15 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.695+05:30","modified":"2025-08-15T16:41:28.632+05:30","published":"2025-08-15T16:41:28.632+05:30","tags":["persistence"],"cssclasses":[],"aliases":null}
+publish: true
+created: 2025-02-23T23:53:09.695+05:30
+modified: 2025-08-15T16:41:28.632+05:30
+published: 2025-08-15T16:41:28.632+05:30
+tags:
+  - persistence
+cssclasses: []
+aliases:
 ---
 
-- Resides in the System container of a domain and used to control permissions - using an [[Access Control Model]] - for certain built-in privileged groups (called Protected Groups). 
+- Resides in the System container of a domain and used to control permissions - using an [[Access Control Model]] - for certain built-in privileged groups (called Protected Groups).
 - Security Descriptor Propagator (SDPROP) runs every hour and compares the ACL of protected groups and members with the ACL of AdminSDHolder and any differences are overwritten on the object ACL.
 
 | List of Protected Groups     |
@@ -26,6 +33,7 @@ Well known abuse of some of the Protected Groups, all of which can log on locall
 | Backup Operators  | Backup GPO, edit to add SID of controlled account to a privileged group and Restore. |
 | Server Operators  | Run a command as system (using the disabled Browser service)                         |
 | Print Operators   | Copy ntds.dit backup, load device drivers.                                           |
+
 - With Domain Admin privileges (Full Control/Write permissions) on the AdminSDHolder object, it can be used as a backdoor/persistence mechanism by adding a user with Full Permissions (or other interesting permissions) to the AdminSDHolder object.
 - In 60 minutes (when SDPROP runs), the user will be added with Full Control to the AC groups like Domain Admins without actually being a member of it.
 
@@ -76,4 +84,3 @@ Set-DomainUserPassword -Identity illicituser -AccountPassword (ConvertTo-SecureS
 ```powershell title:"Abusing ResetPassword (ActiveDirectory Module)"
 Set-ADAccountPassword -Identity illicituser -NewPassword (ConvertTo-SecureString "Password@123" -AsPlainText -Force) -Verbose
 ```
-

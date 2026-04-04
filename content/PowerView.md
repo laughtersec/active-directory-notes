@@ -1,8 +1,13 @@
 ---
-{"publish":true,"created":"2025-04-02T20:40:37.186+05:30","modified":"2025-05-04T12:32:30.968+05:30","published":"2025-05-04T12:32:30.968+05:30","tags":["domain-enumeration"],"cssclasses":""}
+publish: true
+created: 2025-04-02T20:40:37.186+05:30
+modified: 2025-05-04T12:32:30.968+05:30
+published: 2025-05-04T12:32:30.968+05:30
+tags:
+  - domain-enumeration
 ---
 
-[[PowerShell]] on steroids: 
+[[PowerShell]] on steroids:
 
 [Documentation](https://powersploit.readthedocs.io/en/latest/)
 
@@ -138,6 +143,7 @@ Invoke-FileFinder -Verbose
 ```powershell title:"Get all fileservers of the domain"
 Get-NetFileServer
 ```
+
 ###### Finding GPOs and related information in the current domain
 
 ```powershell title:"Get list of GPOs in the current domain"
@@ -184,5 +190,3 @@ Find-InterestingDomainAcl -ResolveGUIDs
 ```powershell title:"Get the ACLs associated with the specified path"
 Get-PathAcl -Path "\\computer-name\sysvol"
 ```
-
-

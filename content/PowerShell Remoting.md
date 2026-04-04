@@ -1,11 +1,17 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.700+05:30","modified":"2025-08-15T16:42:41.683+05:30","published":"2025-08-15T16:42:41.683+05:30","tags":["lateral-movement"],"cssclasses":null}
+publish: true
+created: 2025-02-23T23:53:09.700+05:30
+modified: 2025-08-15T16:42:41.683+05:30
+published: 2025-08-15T16:42:41.683+05:30
+tags:
+  - lateral-movement
+cssclasses:
 ---
 
 #### Connect to remote hosts using [[PowerShell]]
 
 - More silent and faster than psexec
-- [PSRemoting](https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/08-powershell-remoting?view=powershell-7.4&viewFallbackFrom=powershell-7.3) uses Windows Remote Management (WinRM) which is Microsoft's implementation of WS-Management
+- [PSRemoting](https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/08-powershell-remoting?view=powershell-7.4\&viewFallbackFrom=powershell-7.3) uses Windows Remote Management (WinRM) which is Microsoft's implementation of WS-Management
 - Enabled by default on Server 2012 onwards with a firewall exception
 - Uses WinRM and listens by default on 5985 (HTTP) and 5986 (HTTPS)
 - It is the recommended way to manage Windows Core servers.
@@ -13,6 +19,7 @@
 - The remoting process runs as a high integrity process. That is, you get an elevated shell.
 
 #### PSSession
+
 - Interactive
 - Runs in a new process (wsmprovhost)
 - Is stateful
@@ -28,6 +35,7 @@ $computername = New-PSSession -ComputerName computername
 ```
 
 #### Invoke-Command
+
 - Non-Interactive
 - Executes commands parallelly
 - Stateless, also known as fan-out remoting
@@ -55,12 +63,14 @@ Invoke-Command -Session $computername -ScriptBlock {$Proc.Name}
 ```
 
 #### winrs
+
 - PowerShell remoting supports the system-wide transcripts and deep script block logging
 - We can use winrs in place of PSRemoting to evade the logging (and still reap the benefit of 5985 allowed between hosts)
 
 ```batch title:"Usage"
 winrs -r:computername -u:computername\administrator -p:password hostname
 ```
+
 ```batch
 winrs -r:computername command
 ```

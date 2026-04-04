@@ -1,6 +1,9 @@
 # Active Directory
+
 An obsidian vault that consists of things related to Active Directory.
+
 ## Contents
+
 - Notes I took during CRTP.
 - Link to Setup instructions.
 

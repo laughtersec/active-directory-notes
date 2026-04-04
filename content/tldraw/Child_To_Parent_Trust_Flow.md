@@ -1,10 +1,13 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.710+05:30","modified":"2025-08-15T17:02:29.329+05:30","published":"2025-08-15T17:02:29.329+05:30","cssclasses":"","tldraw-file":true,"tags":[]}
+publish: true
+created: 2025-02-23T23:53:09.710+05:30
+modified: 2025-08-15T17:02:29.329+05:30
+published: 2025-08-15T17:02:29.329+05:30
+tldraw-file: true
+tags: []
 ---
 
-
-
-```json !!!_START_OF_TLDRAW_DATA__DO_NOT_CHANGE_THIS_PHRASE_!!!
+````json !!!_START_OF_TLDRAW_DATA__DO_NOT_CHANGE_THIS_PHRASE_!!!
 {
 	"meta": {
 		"plugin-version": "1.0.6",
@@ -468,3 +471,4 @@
 	}
 }
 !!!_END_OF_TLDRAW_DATA__DO_NOT_CHANGE_THIS_PHRASE_!!! ```
+````

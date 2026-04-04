@@ -1,5 +1,10 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.699+05:30","modified":"2025-08-15T16:42:20.764+05:30","published":"2025-08-15T16:42:20.764+05:30","tags":["local-privesc"],"cssclasses":""}
+publish: true
+created: 2025-02-23T23:53:09.699+05:30
+modified: 2025-08-15T16:42:20.764+05:30
+published: 2025-08-15T16:42:20.764+05:30
+tags:
+  - local-privesc
 ---
 
 There are various ways of locally escalating privileges on Windows
@@ -32,4 +37,3 @@ winPEASx64.exe
 ```
 
 - NTLM Relaying example - https://github.com/antonioCoco/RemotePotato0
-

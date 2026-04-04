@@ -1,10 +1,17 @@
 ---
-{"publish":true,"aliases":[],"created":"2025-02-23T23:53:09.702+05:30","modified":"2025-08-15T16:43:16.772+05:30","published":"2025-08-15T16:43:16.772+05:30","tags":["persistence"],"cssclasses":null}
+publish: true
+created: 2025-02-23T23:53:09.702+05:30
+modified: 2025-08-15T16:43:16.772+05:30
+published: 2025-08-15T16:43:16.772+05:30
+tags:
+  - persistence
+aliases: []
+cssclasses:
 ---
 
 - A valid TGS
 - This deals with abusing AP-REQ
-- Encrypted and signed by the hash of the **service** account. 
+- Encrypted and signed by the hash of the **service** account.
 - Services rarely check PAC (Privileged Attribute Certificate)
 - Services will allow access only to the services themselves.
 - Reasonable persistence period (default 30 days for computer accounts)
@@ -20,8 +27,8 @@ C:\AD\Tools\BetterSafetyKatz.exe "kerberos::golden /user:Administrator /domain:d
 | /domain:fqdn                   | Domain FQDN                                                                                                      |
 | /sid:S-1-XXXXX                 | SID of the domain                                                                                                |
 | /target:domain-controller-fqdn | Target server FQDN                                                                                               |
-| /service:service_name          | The SPN of the service for which the TGS is to be created                                                        |
-| /aes256:aes256_key             | AES256 keys of the service account. Using AES keys makes the attack more silent                                  |
+| /service:service\_name          | The SPN of the service for which the TGS is to be created                                                        |
+| /aes256:aes256\_key             | AES256 keys of the service account. Using AES keys makes the attack more silent                                  |
 | /id:500 /groups:512            | Optional User RID (default 500) and Group (default 513 512 520 518 519)                                          |
 | /ptt                           | Injects the ticket in current process - no need to save the ticket on disk                                       |
 | /startoffset:0                 | Optional when the ticket is available (default 0 - right now) in minutes                                         |
@@ -33,4 +40,3 @@ C:\AD\Tools\Rubeus.exe silver /service:service_name/domain-controller /rc4:<ntlm
 ```
 
 `/ldap` queries DC for information related to the user.
-

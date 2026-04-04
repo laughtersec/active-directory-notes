@@ -1,5 +1,11 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.704+05:30","modified":"2025-08-15T16:43:43.310+05:30","published":"2025-08-15T16:43:43.310+05:30","tags":["privesc"],"cssclasses":[]}
+publish: true
+created: 2025-02-23T23:53:09.704+05:30
+modified: 2025-08-15T16:43:43.310+05:30
+published: 2025-08-15T16:43:43.310+05:30
+tags:
+  - privesc
+cssclasses: []
 ---
 
 #### Introduction
@@ -51,5 +57,3 @@ Invoke-MimiKatz -Command '"lsadump::dcsync /user:domain\krbtgt"'
 ```
 
 This attack can work across forests if TGT delegation is enabled.
-
-

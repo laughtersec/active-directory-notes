@@ -1,8 +1,12 @@
 ---
-{"publish":true,"created":"2025-04-04T21:56:13.831+05:30","modified":"2025-03-05T10:25:37.734+05:30","published":"2025-03-05T10:25:37.734+05:30","tags":["tldraw"],"cssclasses":"","tldraw-file":true}
+publish: true
+created: 2025-04-04T21:56:13.831+05:30
+modified: 2025-03-05T10:25:37.734+05:30
+published: 2025-03-05T10:25:37.734+05:30
+tags:
+  - tldraw
+tldraw-file: true
 ---
-
-
 
 ```json !!!_START_OF_TLDRAW_DATA__DO_NOT_CHANGE_THIS_PHRASE_!!!
 {

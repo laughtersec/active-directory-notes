@@ -1,5 +1,11 @@
 ---
-{"publish":true,"created":"2025-02-23T23:53:09.698+05:30","modified":"2025-08-15T16:40:50.896+05:30","published":"2025-08-15T16:40:50.896+05:30","tags":["privesc"],"cssclasses":[]}
+publish: true
+created: 2025-02-23T23:53:09.698+05:30
+modified: 2025-08-15T16:40:50.896+05:30
+published: 2025-08-15T16:40:50.896+05:30
+tags:
+  - privesc
+cssclasses: []
 ---
 
 - [Offline cracking of service account passwords.](https://www.redsiege.com/wp-content/uploads/2020/08/Kerberoastv4.pdf)
@@ -7,6 +13,7 @@
 - Because (non-machine) service account passwords are not frequently changed, this is a good attack vector.
 - An important point to note is that we need a service ticket that is encrypted with an NTLM hash (RC4) and not AES, which uses a salt. Bruteforcing the AES key would be extremely difficult.
 - The DC will, however, oblige to the client's requests of using a ticket with downgraded encryption. Unless RC4 is disabled throughout the forest.
+
 #### Obtaining tickets
 
 ```powershell title:"Find user accounts used as service accounts (PowerView)"
