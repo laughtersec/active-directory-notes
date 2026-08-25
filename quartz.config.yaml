@@ -370,7 +370,7 @@ plugins:
       animateTransitions: true
     order: 50
   - source: github:quartz-community/syntax-highlighting
-    enabled: true
+    enabled: false
     options:
       theme:
         light: github-light
