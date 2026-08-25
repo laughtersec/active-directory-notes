@@ -1,7 +1,8 @@
 ---
+publish: true
+created: 2025-12-06T10:34:52.847Z
 tags:
   - privesc
-cssclasses: []
 ---
 
 ![[child_to_parent_trust_flow.svg]]
