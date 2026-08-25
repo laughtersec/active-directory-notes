@@ -1,3 +1,8 @@
+---
+publish: true
+created: 2026-08-25T10:05:39.543Z
+---
+
 # Active Directory
 
 An obsidian vault that consists of things related to Active Directory.
