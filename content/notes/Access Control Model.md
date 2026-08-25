@@ -1,8 +1,7 @@
 ---
-publish: true
-created: 2025-02-23T18:23:09.694Z
 tags:
   - general
+cssclasses:
 ---
 
 #### [Access Control Model](https://learn.microsoft.com/en-us/windows/win32/secauthz/access-control-model)

@@ -1,8 +1,7 @@
 ---
-publish: true
-created: 2025-02-23T18:23:09.704Z
 tags:
   - domain-enumeration
+cssclasses: []
 ---
 
 ```powershell title:"Find all machines on the current domain where the current user has local admin access"

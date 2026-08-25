@@ -1,6 +1,4 @@
 ---
-publish: true
-created: 2025-02-23T18:23:09.703Z
 tags:
   - domain-enumeration
   - general

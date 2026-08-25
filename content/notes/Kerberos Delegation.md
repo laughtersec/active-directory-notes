@@ -1,8 +1,7 @@
 ---
-publish: true
-created: 2025-02-23T18:23:09.699Z
 tags:
   - privesc
+cssclasses:
 ---
 
 - Kerberos Delegation allows to "reuse the end-user credentials to access resources hosted on a different server".

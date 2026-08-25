@@ -1,8 +1,7 @@
 ---
-publish: true
-created: 2025-04-02T15:10:37.186Z
 tags:
   - privesc
+cssclasses: []
 ---
 
 ![[Kerberos_Delegation.svg]]

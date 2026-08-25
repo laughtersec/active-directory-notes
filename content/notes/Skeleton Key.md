@@ -1,8 +1,7 @@
 ---
-publish: true
-created: 2025-02-23T18:23:09.702Z
 tags:
   - persistence
+cssclasses: []
 ---
 
 - Patches the DC's LSASS process so that it allows access as any user with a single password.
@@ -24,4 +23,4 @@ mimikatz # misc::skeleton
 ```
 
 - Very noisy logs - Service installation (Kernel mode driver)
-- Might cause issues with [[notes/AD CS]]
+- Might cause issues with [[active-directory/notes/AD CS]]

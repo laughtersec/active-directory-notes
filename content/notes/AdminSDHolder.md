@@ -1,8 +1,8 @@
 ---
-publish: true
-created: 2025-02-23T18:23:09.695Z
 tags:
   - persistence
+cssclasses: []
+aliases:
 ---
 
 - Resides in the System container of a domain and used to control permissions - using an [[Access Control Model]] - for certain built-in privileged groups (called Protected Groups).

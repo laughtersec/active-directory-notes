@@ -1,8 +1,8 @@
 ---
-publish: true
-created: 2025-04-04T16:26:13.831Z
-tags:
-  - tldraw
+
+tldraw-file: true
+tags: [tldraw]
+
 ---
 
 ```json !!!_START_OF_TLDRAW_DATA__DO_NOT_CHANGE_THIS_PHRASE_!!!

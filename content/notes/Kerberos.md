@@ -1,8 +1,8 @@
 ---
-publish: true
-created: 2025-02-23T18:23:09.699Z
 tags:
   - general
+aliases: 
+cssclasses:
 ---
 
 ![[Kerberos.svg]]

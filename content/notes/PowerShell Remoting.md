@@ -1,8 +1,7 @@
 ---
-publish: true
-created: 2025-02-23T18:23:09.700Z
 tags:
   - lateral-movement
+cssclasses:
 ---
 
 #### Connect to remote hosts using [[PowerShell]]

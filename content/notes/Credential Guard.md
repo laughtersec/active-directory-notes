@@ -1,8 +1,7 @@
 ---
-publish: true
-created: 2025-02-23T18:23:09.696Z
 tags:
   - detection-and-defense
+cssclasses: []
 ---
 
 - [Credential Guard](https://learn.microsoft.com/en-us/windows/security/identity-protection/credential-guard/) uses virtualization-based security to isolate secrets so that only privileged system software can access them.

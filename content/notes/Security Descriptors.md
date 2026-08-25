@@ -1,8 +1,7 @@
 ---
-publish: true
-created: 2025-02-23T18:23:09.702Z
 tags:
   - persistence
+cssclasses: []
 ---
 
 - It is possible to modify Security Descriptors (security information like Owner, primary group, D[[Access Control Model]], SACL) of multiple remote access methods (securable objects) to allow access to non-admin users

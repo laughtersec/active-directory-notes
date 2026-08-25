@@ -1,8 +1,7 @@
 ---
-publish: true
-created: 2025-04-02T15:10:37.185Z
 tags:
   - detection-and-defense
+cssclasses: []
 ---
 
 - It identifies, detects and investigates advanced threats, compromised identities, and malicious insider actions directed at your organization

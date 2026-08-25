@@ -1,8 +1,7 @@
 ---
-publish: true
-created: 2025-02-23T18:23:09.696Z
 tags:
   - persistence
+cssclasses: []
 ---
 
 - A Security Support Provider is a DLL which provides ways for an application to obtain an authenticated connection. Some SSP Packages by Microsoft are:

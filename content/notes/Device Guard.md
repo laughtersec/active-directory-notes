@@ -1,8 +1,7 @@
 ---
-publish: true
-created: 2025-02-23T18:23:09.697Z
 tags:
   - detection-and-defense
+cssclasses:
 ---
 
 - [Windows Defender Application Control](https://learn.microsoft.com/en-us/windows/security/identity-protection/credential-guard/) (WDAC) is a group of features designed to harden a system against malware attacks. Its focus is preventing malicious code from running by ensuring only known good code can run.

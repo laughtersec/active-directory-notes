@@ -1,8 +1,7 @@
 ---
-publish: true
-created: 2025-02-23T18:23:09.696Z
 tags:
   - privesc
+cssclasses: []
 ---
 
 - When enabled on a service account, it allows access to only specific services on specified computers as a user.
@@ -13,7 +12,7 @@ tags:
 
 ![[Constrained_Delegation.svg]]
 
-1. A user authenticates to the web service (running with a service account) using a non-[[notes/Kerberos]] compatible authentication mechanism
+1. A user authenticates to the web service (running with a service account) using a non-[[active-directory/notes/Kerberos]] compatible authentication mechanism
 2. The web service requests a ticket from the KDC for the user's account without supplying a password, as the service account
 3. The KDC checks the service account's userAccountControl value for the TRUSTED\_TO\_AUTHENTICATE\_FOR\_DELEGATION attribute, and that the user's account is not blocked for delegation. If OK, it returns a forwardable ticket for the user's account (S4U2Self)
 4. The service then passes this ticket back to the KDC and requests a service ticket for the `CIFS/computer-name-domain-name-fqdn` service

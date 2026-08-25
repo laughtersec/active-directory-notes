@@ -1,8 +1,7 @@
 ---
-publish: true
-created: 2025-02-23T18:23:09.697Z
 tags:
   - persistence
+cssclasses: []
 ---
 
 - A diamond ticket is created by decrypting a valid TGT, making changes to it and re-encrypt it using the AES keys of the krbtgt account

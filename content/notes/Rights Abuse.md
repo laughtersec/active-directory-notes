@@ -1,8 +1,8 @@
 ---
-publish: true
-created: 2025-04-02T15:10:37.186Z
 tags:
   - persistence
+cssclasses: []
+aliases:
 ---
 
 This is a persistence mechanism, so it is assumed you have gained high privileges such as Domain Admin.
